@@ -3,5 +3,5 @@ app = Flask(__name__)
 
 @app.route('/')
 def hello_world():
+    print (FBGM)
     return 'Hello, World!'
-    return 'Were coding now, baby!'
